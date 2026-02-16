@@ -1,3 +1,7 @@
+body{
+    font-family: "Times New Roman", serif;
+}
+
 h1 {
     color: #491c2f;
 }
@@ -31,4 +35,12 @@ table, th, td {
     padding: 8px;
     table-layout: fixed;
     width: 50%;
+}
+
+.today {
+    background-color: green;
+}
+
+td:hover{
+    background-color: orange;
 }
