@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalenderblatt vom 11.02.2026</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1> Kalenderblatt vom 11.02.2026</h1>
@@ -10,15 +12,19 @@
     Tag des Jahres: 42. Tag (noch 323 Tage bis Jahresende)
 
     <table>
+        <thead>
         <tr>
             <th>Mo</th>
             <th>Di</th>
             <th>Mi</th>
             <th>Do</th>
             <th>Fr</th>
-            <th>Sa</th>
+            <th class="highlight">Sa</th>
             <th>So</th>
         </tr>
+        </thead>
+
+        <tbody>
         <tr>
             <td></td>
             <td></td>
@@ -26,7 +32,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td>1</td>
+            <td class="sunday">1</td>
         </tr>
         <tr>
             <td>2</td>
@@ -34,8 +40,8 @@
             <td>4</td>
             <td>5</td>
             <td>6</td>
-            <td>7</td>
-            <td>8</td>
+            <td class="saturday">7</td>
+            <td class="sunday">8</td>
         </tr>
          <tr>
             <td>9</td>
@@ -43,8 +49,8 @@
             <td>11</td>
             <td>12</td>
             <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            <td class="saturday">14</td>
+            <td class="sunday">15</td>
         </tr>
          <tr>
             <td>16</td>
@@ -52,8 +58,8 @@
             <td>18</td>
             <td>19</td>
             <td>20</td>
-            <td>21</td>
-            <td>22</td>
+            <td class="saturday">21</td>
+            <td class="sunday">22</td>
         </tr>
          <tr>
             <td>23</td>
@@ -61,9 +67,10 @@
             <td>25</td>
             <td>26</td>
             <td>27</td>
-            <td>28</td>
-            <td></td>
+            <td class="saturday">28</td>
+            <td class="sunday">29</td>
         </tr>
+        </tbody>
 
     </table>
     </p>
@@ -74,5 +81,6 @@
         <li>1990: Michail Gorbatschow gibt bei einem Besuch Helmut Kohls seine Zustimmung zu Deutschlands Wiedervereinigung.</li>
         <li>2006: Die erste Goldmedaille bei den XX. Olympischen Winterspielen in Turin geht durch den Biathleten Michael Greis an die deutsche Mannschaft. In der Nordischen Kombination holt der Schonacher Georg Hettich überraschend Gold und sorgt damit für den erfolgreichsten deutschen Olympia-Auftakt aller Zeiten.</li>
     </ul>
+
 </body>
 </html>
