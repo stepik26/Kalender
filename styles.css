@@ -1,5 +1,6 @@
 body{
     font-family: "Times New Roman", serif;
+    background-image: url('bild.jpg');
 }
 
 h1 {
@@ -15,7 +16,7 @@ p {
 }
 
 ul li{
-    color: rgb(123, 130, 25);
+    color: rgb(54, 56, 22);
 }
 
 .saturday {
@@ -35,6 +36,7 @@ table, th, td {
     padding: 8px;
     table-layout: fixed;
     width: 50%;
+    background-color: beige;
 }
 
 .today {
@@ -43,4 +45,10 @@ table, th, td {
 
 td:hover{
     background-color: orange;
+    cursor: pointer;
+}
+
+.highlight {
+    color: brown;
+    font-weight: bold;
 }
