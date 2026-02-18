@@ -29,14 +29,23 @@ ul li{
     font-weight: bold;
 }
 
-table, th, td {
-    border: 3px solid black;
+table { 
     border-collapse: collapse;  
     text-align: center;
     padding: 8px;
     table-layout: fixed;
     width: 50%;
     background-color: beige;
+}
+
+th{
+    background-color: yellowgreen;
+}
+
+th, td {
+    border: 3px solid black;
+    text-align: center;
+    padding: 8px;
 }
 
 .today {
@@ -51,6 +60,11 @@ td:hover{
 .highlight {
     color: brown;
     font-weight: bold;
+}
+
+.another-month {
+    color: gray;
+    opacity: 0.4;
 }
 
 footer {
