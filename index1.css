@@ -65,9 +65,13 @@ div:hover{
 .sun {
     background-color: rgba(177, 13, 13, 0.76);
     font-weight: bold;
+<<<<<<< HEAD:test.css
 } 
 .another_month {
     background-color: white;
     padding: 10px;
     text-align: center;
 }
+=======
+}  
+>>>>>>> f1f103da07a97666d5fe32efaa6c72bf118b4c15:index1.css
