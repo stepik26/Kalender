@@ -9,6 +9,7 @@ h1 {
 
 h2 {
     color: #1c491c;
+     text-align: center;
 }
 
 p {
@@ -26,18 +27,19 @@ ul li{
 }
 
 .day-name {
-    background-color: #297897;
+    background-color: white;
     padding: 10px;
     text-align: center;
 }
 
 .day{
-    background-color: #297897;
+    background-color: white;
     padding: 10px;
     text-align: center;
 }
 .wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 }
@@ -63,4 +65,9 @@ div:hover{
 .sun {
     background-color: rgba(177, 13, 13, 0.76);
     font-weight: bold;
-}  
+} 
+.another_month {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
